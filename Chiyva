@@ -1,1 +1,158 @@
+p {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: .5em 10px;
+    quotes: "201C""201D""2018""2019";
+}
+p:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: .1em;
+    margin-right: .25em;
+    vertical-align: -.4em;
+}
+p {
+    display: inline;
+}
+p:after {
+    color: #ccc;
+    content: close-quote;
+    font-size: 4em;
+    line-height: .1em;
+    margin-right: .25em;
+    vertical-align: -.4em;
+}
+/*sets semitransparent color to sticky navbar*/
+.mbr-navbar--stuck& .mbr-navbar__section {
+     background: rgba(9, 67, 136, 0.5)!important;
+}
+/*sets semitransparent color to top navbar */
+.mbr-navbar__section {
+     background: rgba(9, 67, 136, 0.9);
+}
+/*sets the weight of the brand name in navbar possible values are
+     normal | bold | bolder | lighter | 100 | 200 .. to 900  */
+.mbr-brand__name {
+     font-weight:lighter!important;
+}
+<nav class="mbr-navbar__menu-box mbr-navbar__menu-box--inline-right">
+                        <div class="mbr-navbar__column">
+                            <ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active mbr-buttons--only-links">
+                                <li class="mbr-navbar__item">
+                                    <a class="mbr-buttons__link btn text-white mbr-editable-menu-item" href="https://mobirise.com" style="font-size: 14px;">HOME </a>
+                                   
+                                </li>
+                        <!--this is the dropdown menu entry -->
+                                <li class="dropdown mbr-navbar__item open">
+                                    <a class="dropdown-toggle mbr-buttons__link btn text-white mbr-editable-menu-item" data-toggle="dropdown" href="https://mobirise.com" aria-expanded="true" style="font-size: 14px;">ABOUT
+                                     
+      <!-- remove comment tags to show the arrow <span class="caret"></span>--> </a><div class="dropdown-backdrop"></div>
+                                    <ul class="dropdown-menu pif-dropdown">
+                                   <!--these are the dropdown menu items -->
+                              <!--replace # with target link and "Page.." with title -->
+                                        <li><a class="mbr-buttons__link btn mbr-editable-menu-item text-white" style="font-size: 14px" href="#">Page 1-1</a></li>
+                                        <li><a class="mbr-buttons__link btn mbr-editable-menu-item text-white" style="font-size: 14px" href="#">Page 1-2</a></li>
+                                        <li><a class="mbr-buttons__link btn mbr-editable-menu-item text-white" style="font-size: 14px" href="#">Page 1-3</a></li>
+                                    </ul>
+                                </li>
+                                <!--end of dropdown -->
+                                <li class="mbr-navbar__item">
+                                    <a class="mbr-buttons__link btn text-white mbr-editable-menu-item" href="https://mobirise.com" style="font-size: 14px;">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </nav>
+/* dropdown styling */
+/* background and text color */
+.pif-dropdown  {
+    color:#fff!important;
+    background: rgba(9, 67, 136, 0.9);
+}
+.dropdown-menu > li > a{
+    color:#fff!important;
+    text-decoration:none;
+}
+/* highlight on hover */
+a:hover{
+   background: rgba(9, 67, 136, 0.9)!important;
+}
+/* dimensions */
+.dropdown-menu{
+    top: 70%;
+    min-width: 80px;
+}
+/* open on hover - make sure to enable the caret if you disable it */
+  ul.mbr-navbar__items li:hover > ul.dropdown-menu {
+    display: block;
+  }
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
+<!-- This is the accordion html website code -->
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+    
+        <div class="panel-heading" role="tab">
+            <h2 class="panel-title">
+                <a class="mbr-editable-menu-item text-white" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">This is a Caption</a>
+            </h2>
+        
+        </div>
+        <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false" style="height: 0px;">
+            <div class="panel-body mbr-article mbr-editable-full">
+                <p>And this is the first paragraph</p>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading2">
+            <h2 class="panel-title">
+                <a class="mbr-editable-menu-item" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                    123
+                </a>
+            </h2>
+        </div>
+        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2" aria-expanded="false">
+            <div class="panel-body mbr-article mbr-editable-full">
+                <p>sdv adv ws vadfv adfv asd</p>
+            </div>
+        </div>
+    </div>
+    <!-- This is an accordion element - copy/paste if you need more -->
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading3">
+            <h4 class="panel-title">
+                <a class="mbr-editable-menu-item" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                    sdfcas
+                </a>
+            </h4>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3" aria-expanded="false">
+            <div class="panel-body mbr-article mbr-editable-full">
+                <p>scqaerf qef qecv ef qerf qef e</p>
+            </div>
+    <!-- This is the end of the accordion element -->          
+        </div>
+    </div>
+</div>
+/*@import url(undefined);*/
+a {text-decoration:none;}
+ 
+a:active, { outline:none; }
+ 
+.panel{
+     align-content: center;
+}
+/*set the panel color here - not neccessary a transparen one */
+.panel-heading{
+    background-color:rgba(10, 20, 66, 0.5);
+    color:#fff;
+}
+.panel-title{
+    text-align:center;
+    font-family:roboto;
+ }
